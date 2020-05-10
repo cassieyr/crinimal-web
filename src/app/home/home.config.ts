@@ -1,26 +1,26 @@
 export const province = [
     {
-        name: '四川',
+        name: '河北省',
         value: 'sichuan'
     },
     {
-        name: '四川',
+        name: '山西省',
         value: 'sichuan'
     },
     {
-        name: '四川',
+        name: '吉林省',
         value: 'sichuan'
     },
     {
-        name: '四川',
+        name: '辽宁省',
         value: 'sichuan'
     },
     {
-        name: '四川',
+        name: '黑龙江省',
         value: 'sichuan'
     },
     {
-        name: '四川',
+        name: '陕西省',
         value: 'sichuan'
     }
 ];
