@@ -12,6 +12,8 @@ import { registerLocaleData } from '@angular/common';
 import zh from '@angular/common/locales/zh';
 import { NzDropDownModule } from 'ng-zorro-antd/dropdown';
 import { HomeComponent } from './home/home.component';
+import { NzInputModule } from 'ng-zorro-antd/input';
+import { NzButtonModule } from 'ng-zorro-antd/button';
 
 registerLocaleData(zh);
 
@@ -26,7 +28,9 @@ registerLocaleData(zh);
     FormsModule,
     HttpClientModule,
     BrowserAnimationsModule,
-    NzDropDownModule
+    NzDropDownModule,
+    NzInputModule,
+    NzButtonModule
   ],
   providers: [{ provide: NZ_I18N, useValue: zh_CN }],
   bootstrap: [AppComponent]
